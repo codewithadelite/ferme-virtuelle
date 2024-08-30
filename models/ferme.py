@@ -15,6 +15,10 @@ class Ferme:
     def argent(self) -> int:
         return self.__argent
 
+    @argent.setter
+    def argent(self, value: int):
+        self.__argent = value
+
     @property
     def espace(self) -> int:
         return self.__espace
