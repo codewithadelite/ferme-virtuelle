@@ -7,7 +7,7 @@ from .animal import Animal
 class Ferme:
     def __init__(self, argent: int, espace: int):
         self.__argent: int = argent
-        self.__espace: int = espace
+        self.__espace: int = espace # Cultivation space
         self.cultures: List[Culture] = []
         self.animaux: List[Animal] = []
 
